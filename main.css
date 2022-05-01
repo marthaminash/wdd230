@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 
 body{
@@ -55,4 +56,61 @@ footer{
     text-align: center;
     border-radius: 5px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+=======
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
+
+body{
+    margin: 0 auto;
+    max-width: 1000px;
+    color: #2e79ba;
+}
+
+header{
+    background: radial-gradient(circle at 10% 20%, rgb(137, 210, 253) 0%, rgb(255, 241, 188) 90%);
+    height: 200px;
+    display: grid;
+    border-radius: 5px;
+}
+
+.header-img{
+    grid-row: 1/1;
+    grid-column: 1/1;
+    margin: 25px 0 0 70px;
+}
+
+.header-name{
+    grid-row: 1/1;
+    grid-column: 2/3;
+    color: #2e79ba;
+    font-size: 50px;
+    font-weight: 700;
+    font-family: 'Gloria Hallelujah', cursive;
+    margin-left: -20px;
+}
+
+main{
+    height: 524px;
+}
+
+.heading-list{
+    font-family: 'Gloria Hallelujah', cursive;
+}
+
+ul{
+    margin-top: 20px;
+}
+
+ul li{
+    font-size: large;
+    line-height: 2em;
+}
+
+footer{
+    background: radial-gradient(circle at 10% 20%, rgb(137, 210, 253) 0%, rgb(255, 241, 188) 90%);
+    height: 100px;
+    font-family: 'Gloria Hallelujah', cursive;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 5px;
+>>>>>>> c5f899988a3e5576b74c4883b8ba585e23ab0965
 }
