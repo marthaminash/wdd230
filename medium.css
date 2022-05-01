@@ -1,0 +1,11 @@
+@media screen and (max-width: 580px) {
+    .header-name{
+        font-size: 30px;
+        grid-row: 3/4;
+        grid-column: 1/2;
+        margin-left: 10px;
+    }
+    header{
+        height: 250px;
+    }
+}
