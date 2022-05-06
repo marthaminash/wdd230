@@ -1,43 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=PT+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital@1&family=Karma:wght@300&family=Raleway:wght@700&display=swap');
 body{
     margin: 0 auto;
     max-width: 1000px;
-    color: #2e79ba;
-    font-family: 'Lato', sans-serif;
+    background-color: #F9F7FE;
+    font-family: 'PT Mono', monospace;
+    color: #272044;
 }
 
 header{
-    background: radial-gradient(circle at 10% 20%, rgb(137, 210, 253) 0%, rgb(255, 241, 188) 90%);
+    background-color: #885DF1;
+    color: #fff;
     height: 200px;
     display: grid;
-    border-radius: 5px;
+    border-radius: 25px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    text-shadow: .1em .1em 0 hsl(200 50% 30%);
 }
 
 .header-img{
     grid-row: 1/1;
     grid-column: 1/1;
     margin: 25px 0 0 70px;
+    border-radius: 20px;
 }
 
-.header-topic{
+.header-name{
     grid-row: 1/1;
     grid-column: 2/3;
-    color: #2e79ba;
+    color: #fff;
     font-size: 50px;
     font-weight: 700;
-    font-family: 'Gloria Hallelujah', cursive;
+    font-family: 'Koulen', cursive;
     margin-left: -20px;
-}
-.header-name{
-    grid-row: 2/3;
-    grid-column: 2/3;
-    font-size: 20px;
-    margin-top: -20px;
-    text-shadow: none;
 }
 
 .container{
@@ -97,13 +91,14 @@ header{
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 footer{
-    background: radial-gradient(circle at 10% 20%, rgb(137, 210, 253) 0%, rgb(255, 241, 188) 90%);
+    background-color: #885DF1;
     height: 100px;
-    font-family: 'Gloria Hallelujah', cursive;
-    font-size: 20px;
+    font-family: 'PT Mono', monospace;
+    font-size: 18px;
     text-align: center;
-    border-radius: 5px;
+    border-radius: 25px;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    color: #fff;
 }
 
 @media screen and (max-width: 39.9375em) {

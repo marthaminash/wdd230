@@ -12,7 +12,6 @@
 <body>
     <header>
         <img src="https://marthaminash.github.io/wdd230/profilePicture.jpg" alt="Profile picture" class="header-img">
-        <h1 class="header-topic">Design Principles Document </h1>
         <h2 class="header-name">Martha Minash</h2>
     </header>
     <main>
@@ -35,9 +34,12 @@
         </div>
     </main>
     <footer>
-        <p>&copy;2022 .:|:. Martha Minash .:|:. BYU-Idaho </p>
+        <p>&copy;2022 | Martha Minash | BYU-Idaho </p>
         <p id="placeholder"> </p>
     </footer>
-    <script src="script.js"></script>
+    <script>
+    let latestDate = new Date(document.lastModified).toLocaleString();
+    document.getElementById('placeholder').innerHTML = "Last Updated: " + latestDate;
+    </script>
 </body>
 </html>
