@@ -1,0 +1,36 @@
+@media only screen and (max-width: 768px) {
+    .grid-element-hero{
+        grid-row: 1/2;
+        grid-column: 1/2;
+        height: 250px;
+    }
+    .grid-element-event{
+        grid-row: 2/3;
+        grid-column: 1/2;
+    }
+    .grid-element-weather{
+        grid-row: 3/4;
+        grid-column: 1/2;
+    }
+    .grid-element-news{
+        grid-row: 4/5;
+        grid-column: 1/2;
+    }
+    .grid-element-spotlight{
+        grid-row: 5/6;
+        grid-column: 1/2;
+    }
+    .grid-element-join{
+        display: none;
+    }
+    footer{
+        height: 250px;
+    }
+    .spotlight-1,
+    .spotlight-2{
+        height: 200px;
+    }
+    .spotlight-3{
+        display: none;
+    }
+}
