@@ -3,6 +3,7 @@
         grid-row: 1/2;
         grid-column: 1/4;
         height: 250px;
+        border: none;
     }
     .grid-element-news{
         grid-row: 2/3;
@@ -106,5 +107,19 @@
     
     .nav-menu.active {
         left: 0;
+    }
+    .main-img{
+        display: none;
+    }
+    .main-img-medium{
+        display: block;
+        margin: 0 auto;
+        width: 960px;
+        height: 250px;
+    }
+
+    .main-heading-img{
+        top: 20%;
+        left: 10%;
     }
 }
