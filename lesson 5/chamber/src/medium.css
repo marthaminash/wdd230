@@ -108,9 +108,9 @@
     .nav-menu.active {
         left: 0;
     }
-    .main-img{
+    /*.main-img{
         display: none;
-    }
+    }*/
     .main-img-medium{
         display: block;
         margin: 0 auto;

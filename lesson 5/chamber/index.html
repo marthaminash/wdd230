@@ -4,7 +4,6 @@
     <title>Chamber - Volya</title>
     <meta charset="UTF-8" />
     <script src="https://kit.fontawesome.com/4a011261d8.js" crossorigin="anonymous"></script>
-    
     <link rel="stylesheet" href="src/large.css" />
     <link rel="stylesheet" href="src/medium.css" />
     <link rel="stylesheet" href="src/base.css" />
@@ -13,7 +12,7 @@
   <body>
     <header>
       <nav class="navbar">
-        <a href="#" class="nav-branding logo"><img src="images/logo.png" alt="logo" width="100"></a>
+        <a href="#" class="nav-branding logo"><img src="images/logo.webp" alt="logo" width="100"></a>
         <ul class="nav-menu">
           <li class="nav-item">
             <a href="#" class="nav-link">Discover</a>
@@ -52,13 +51,16 @@
         <div class="grid-element grid-element-weather">
           <h2 class="heading">Weather</h2>
           <i class="fa-solid fa-sun fa-3x"></i>
-          <p>Sunny</p>
-          <p>Wind speed: 2.5 km/h</p>
+          <p><span id="current-temperature">33</span>°F</p>
+          <p>Wind speed: <span id="wind-speed">4</span>/h</p>
+          <p>Wind chill:<span id="wind-chill"> </span></p>
         </div>
         <div class="grid-element grid-element-hero">
-          <img src="images/lviv.png" alt="lviv"class="main-img">
-          <img src="images/lvivMedium.png" alt="lviv" class="main-img-medium">
-          <h2 class="main-heading-img"">Welcome To Volya</h2>
+          <picture>
+            <source srcset="images/small.jpg" media="(min-width:500px) and (max-width: 768px)">
+            <source srcset="images/medium.jpg" media="(min-width:769px) and (max-width: 992px)">
+            <img src="images/large.jpg" alt="Picture">
+          </picture>
           <button class="join-chamber-btn">Join The Chamber</button>
         </div>
         <div class="grid-element grid-element-join">
@@ -95,7 +97,7 @@
       </div>
     </main>
     <footer>
-      <img src="images/logo.png" alt="logo" width="150" class="logo footer-grid-logo">
+      <img src="images/logo.webp" alt="logo" width="150" class="logo footer-grid-logo">
       <div class="address-section">Rynok Square, 1, Lviv, Ukraine, 79008</div>
       <div class="contact">
         <a href="#">volya@info.com</a>
@@ -108,6 +110,7 @@
       </div>
     </footer>
 
+    <script src="src/windchill.js"></script>
     <script src="src/index.js"></script>
   </body>
 </html>

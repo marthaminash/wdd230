@@ -93,7 +93,7 @@ a {
 /*Main Section---------------------------------------------------------------*/
 
 .grid-element {
- border: 2px solid #3b3566;
+border: 2px solid #3b3566;
 }
 
 .grid-element-event,
@@ -232,9 +232,9 @@ footer {
   z-index: 1;
 }
 
-.main-img-medium{
+/*.main-img-medium{
   display: none;
-}
+}*/
 
 .join-btn{
   padding: 15px;
