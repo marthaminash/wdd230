@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber Home Page</title>
+    <script src="https://kit.fontawesome.com/4a011261d8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="src/css/large.css">
+    <link rel="stylesheet" href="src/css/medium.css">
+    <link rel="stylesheet" href="src/css/base.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <a href="#" class="nav-branding logo"><img src="images/logo.png" alt="logo" width="60"></a>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Discover</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Directory</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Join</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></i></a>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+
+    </header>
+    <main>
+        <div class="main-form-wrapper">
+            <div class="form-wrapper">
+                <form class="form">
+                    <label for="fname" class="first-name-label">First name*:</label><br>
+                    <input type="text" id="fname" name="fname" required placeholder="Enter your first name" class="input-field"><br>
+                    <label for="lname">Last name*:</label><br>
+                    <input type="text" id="lname" name="lname" required placeholder="Enter your last name" class="input-field"><br>
+                    <label for="bposition">Business position:</label><br>
+                    <input type="text" id="bposition" name="bposition"placeholder="Business position" class="input-field"><br>
+                    <label for="email">Email*:</label><br>
+                    <input type="email" id="email" name="email" required placeholder="user@mail.com" class="input-field"><br>
+                    <label for="bname">Business name*:</label><br>
+                    <input type="text" id="bname" name="bname" required placeholder="Business name" class="input-field"><br><br>
+                </form> 
+            </div>
+            <div class="radio-btn-form-wrapper">
+                <form class="radio-btn-form">
+                    <input type="radio" id="np" name="membership" checked>
+                    <label for="np">NP Membership(no fee) </label><br>
+                    <input type="radio" id="bronze" name="membership">
+                    <label for="bronze">Bronze Membership</label><br>
+                    <input type="radio" id="silver" name="membership">
+                    <label for="silver">Silver Membership</label><br>
+                    <input type="radio" id="gold" name="membership">
+                    <label for="gold">Gold Membership</label>
+                    </form> 
+            </div>
+            <div class="business-description-wrapper">
+                <p>Business description</p>
+                <textarea id="business-description" name="bussiness-description" rows="14" cols="38"></textarea>
+                <input type="submit" value="Submit" id="submit-btn">
+            </div>
+        </div>
+        
+    </main>
+    <footer>
+        <img src="images/logo.png" alt="logo" width="150" class="logo footer-grid-logo">
+        <div class="address-section">Rynok Square, 1, Lviv, Ukraine, 79008</div>
+        <div class="contact">
+            <a href="#">volya@info.com</a>
+        </div>
+        <div class="copyright-section">
+            <p>&copy;2022 Volya - Chamber Of Commerce | Martha Minash | WDD 230 Project |<span id="placeholder"></span></p>
+        </div>
+    </footer>
+
+    <script src="src/join.js"></script>
+
+</body>
+</html>
