@@ -3,7 +3,6 @@ footer{
     background-color: #3B3566;
     max-width: 1200px;
     margin: 0 auto;
-    border-radius: 25px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     padding: 20px;
     margin-bottom: 20px;
@@ -14,21 +13,19 @@ h1{
     color: #EAECFF;
 }
 main{
-    background: linear-gradient(to top, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);
+    background-color: #EAECFF;
     max-width: 1200px;
     margin: 0 auto;
-    border-radius: 25px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     padding: 20px;
     
 }
 section{
     max-width: 300px;
-    border-radius: 25px;
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
-    margin: 10px;
+    margin: 5px;
     text-align: center;
-    background-color: #EAECFF;
+    background: linear-gradient(to top, #505285 0%, #585e92 12%, #65689f 25%, #7474b0 37%, #7e7ebb 50%, #8389c7 62%, #9795d4 75%, #a2a1dc 87%, #b5aee4 100%);
     color: #3B3566;
 }
 
@@ -41,8 +38,8 @@ section:hover{
 section img{
     display: block;
     margin: 0 auto;
-    border-radius: 25px;
     margin-bottom: 10px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
 
 .cards{
@@ -58,4 +55,30 @@ footer{
     color: #EAECFF;
     font-size: 20px;
 }
+@media (max-width: 992px) {
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    section{
+        margin: 0 auto;
+    }
+    section img{
+        max-width: 80%;
+    }
+}
+@media (max-width: 768px) {
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr;
+    } 
+    section{
+        margin: 0 auto;
+    }
+    section img{
+        max-width: 80%;
+    }
+}
+
+
 
