@@ -1,0 +1,44 @@
+.cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+section{
+    max-width: 300px;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    color: #3B3566;
+}
+
+section:hover{
+    opacity: 0.7;
+    transition: 0.2s ease-in-out;
+}
+
+@media (max-width: 992px) {
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+    section{
+        margin: 0 auto;
+    }
+    section img{
+        max-width: 80%;
+    }
+}
+@media (max-width: 768px) {
+    .cards{
+        display: grid;
+        grid-template-columns: 1fr;
+    } 
+    section{
+        margin: 0 auto;
+    }
+    section img{
+        max-width: 80%;
+    }
+}
+
