@@ -1,0 +1,9 @@
+.wrapper{
+    width: 1000px;
+    background: linear-gradient(135.9deg, rgb(109, 25, 252) 16.4%, rgb(125, 31, 165) 56.1%);
+    margin: 0 auto;
+    border-radius: 25px;
+    text-align: center;
+    padding: 10px;
+    color: #ffffff;
+}
