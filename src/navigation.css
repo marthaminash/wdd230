@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital@1&family=Karma:wght@300&family=Raleway:wght@700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #f7f3ff;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  color: #3b3566;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Alegreya Sans SC", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #3b3566;
+}
+
+p {
+  font-family: "Karma", serif;
+  font-weight: 300;
+}
+
+header {
+  background-color: #885df1;
+  height: 200px;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: #f7f3ff;
+  text-decoration: none;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+
+.navbar {
+  min-height: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.nav-link {
+  transition: 0.7s ease;
+}
+
+.nav-link:hover {
+  color: #8995f5;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #f7f3ff;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: block;
+  }
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+  .hamburger.active .bar:nth-child(1) {
+    transform: translateY(8px) rotate(45deg);
+  }
+  .hamburger.active .bar:nth-child(3) {
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 70px;
+    gap: 0;
+    flex-direction: column;
+    background-color: #885df1;
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-item {
+    margin: 16px 0;
+  }
+  .nav-menu.active {
+    left: 0;
+  }
+}

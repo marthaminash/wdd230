@@ -23,13 +23,13 @@
                     <a href="../lesson-7/discover.html" class="nav-link">Discover</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Directory</a>
+                    <a href="/lesson-9/directory-page/directory.html" class="nav-link">Directory</a>
                 </li>
                 <li class="nav-item">
                     <a href="join.html" class="nav-link">Join</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">Contact</a>
+                    <a href="/lesson-11/contact.html" class="nav-link">Contact</a>
                 </li>
             </ul>
             <div class="social-media">
@@ -47,7 +47,7 @@
     </header>
     <main>
         <div class="main-form-wrapper">
-            <div class="form-wrapper">
+            <div class="form-wrapper first-element">
                 <form class="form">
                     <label for="fname" class="first-name-label">First name*:</label><br>
                     <input type="text" id="fname" name="fname" required placeholder="Enter your first name" class="input-field"><br>
@@ -61,7 +61,7 @@
                     <input type="text" id="bname" name="bname" required placeholder="Business name" class="input-field"><br><br>
                 </form> 
             </div>
-            <div class="radio-btn-form-wrapper">
+            <div class="radio-btn-form-wrapper second-element">
                 <form class="radio-btn-form">
                     <input type="radio" id="np" name="membership" checked>
                     <label for="np">NP Membership(no fee) </label><br>
@@ -73,10 +73,10 @@
                     <label for="gold">Gold Membership</label>
                     </form> 
             </div>
-            <div class="business-description-wrapper">
+            <div class="business-description-wrapper third-element">
                 <p>Business description</p>
                 <textarea id="business-description" name="bussiness-description" rows="14" cols="38"></textarea>
-                <input type="submit" value="Submit" id="submit-btn">
+                <input type="submit" value="Submit" id="submit-btn" onClick="location.href='/thankyoupage.html'">
             </div>
         </div>
         

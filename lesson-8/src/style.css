@@ -45,3 +45,6 @@ table tr:nth-child(7){
     border: 2px solid #e6a8d7;
 }
 
+.main-form-wrapper{
+    display: grid;
+}

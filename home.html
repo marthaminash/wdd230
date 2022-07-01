@@ -4,18 +4,19 @@
       <title>Chamber - Volya</title>
       <meta charset="UTF-8" />
       <script src="https://kit.fontawesome.com/4a011261d8.js" crossorigin="anonymous"></script>
-      <link rel="stylesheet" href="src/large.css" />
-      <link rel="stylesheet" href="src/medium.css" />
-      <link rel="stylesheet" href="src/base.css" />
+      <link rel="stylesheet" href="base.css">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+      <link rel="stylesheet" href="src/base.css">
+      <link rel="stylesheet" href="src/navigation.css">
    </head>
    <body>
       <header>
          <nav class="navbar">
             <a href="#" class="nav-branding logo"><img src="images/logo.webp" alt="logo" width="100"></a>
             <ul class="nav-menu">
-                <li class="nav-item">
-                    <a href="home.html" class="nav-link">Home</a>
-                 </li>
+               <li class="nav-item">
+                  <a href="home.html" class="nav-link">Home</a>
+               </li>
                <li class="nav-item">
                   <a href="lesson-7/discover.html" class="nav-link">Discover</a>
                </li>
@@ -26,7 +27,7 @@
                   <a href="lesson-8/join.html" class="nav-link">Join</a>
                </li>
                <li class="nav-item">
-                  <a href="#" class="nav-link">Contact</a>
+                  <a href="lesson-11/contact.html" class="nav-link">Contact</a>
                </li>
             </ul>
             <div class="social-media">
@@ -47,7 +48,8 @@
             <div class="grid-element grid-element-event">
                <h2 class="heading">Ribbon Cutting</h2>
                <h3>The Diamond Shack</h3>
-               <p>Join us for the grand opening of The Diamond Shack, Thursday at 1:00 p.m. more info</p>
+               <br>
+               <p>Join us for the grand opening of The Diamond Shack, Thursday at 1:00 p.m.</p>
             </div>
             <div class="grid-element grid-element-weather">
                <div class="wrapper">
@@ -58,18 +60,15 @@
                   </figure>
                   <hr>
                   <br>
-                  <p><strong>Wind speed:</strong> <span id="wind-speed"></span> miles/hour</p>
+                  <p><strong>Wind speed:</strong><span id="wind-speed"></span> miles/hour</p>
                   <p><strong>Wind chill:</strong><span id="wind-chill"> </span>N/A</p>
                   <p id="source-paragraph">Source: <a href="https://openweathermap.org/">OpenWeatherMap</a></p>
             </div>
             </div>
             <div class="grid-element grid-element-hero">
-               <picture>
-                  <source srcset="images/small.jpg" media="(min-width:500px) and (max-width: 768px)">
-                  <source srcset="images/medium.jpg" media="(min-width:769px) and (max-width: 992px)">
-                  <img id="hero-picture" src="images/lviv.png" alt="Picture">
-               </picture>
-               <button class="join-chamber-btn"><a href="lesson-8/join.html">Join The Chamber</a></button>
+                  <img src="images/lvivMedium.png" alt="Photo of Lviv" id="lvivImg">
+                  <img src="images/lviv.png" alt="Photo of Lviv" id="lvivImgLarge">
+                  <button class="join-chamber-btn"><a href="lesson-8/join.html">Join The Chamber</a></button>
             </div>
             <div class="grid-element grid-element-join">
                <button class="join-btn"><a href<a href="lesson-8/join.html">Join Us</a></button>
@@ -77,7 +76,7 @@
             </div>
             <div class="grid-element grid-element-news">
                <h2 class="heading">News Release</h2>
-               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+               <p>Last week, the Volya Chamber – with a delegation of over 70 Lviv-based businesses – showed up in force at Ukraine's largest tech conference. One clear message we shared: Lviv's tech sector is thriving and we're not done yet.</p>
             </div>
             <div class="grid-element grid-element-spotlight">
                <div class="grid-element spotlight-1">
