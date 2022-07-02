@@ -35,11 +35,12 @@ function displayResults(weatherData) {
     const desc = weatherData.weather[0].description.toUpperCase();
     const currentWindSpeed = weatherData.wind.speed;
     console.log(currentWindSpeed)
+    console.log(desc)
 
     weatherIcon.setAttribute("src", iconsrc);
     weatherIcon.setAttribute("alt", desc);
-    captionDesc.innerHTML = desc;
-    windSpeed.innerHTML = currentWindSpeed;
+    captionDesc.textContent = desc;
+    windSpeed.textContent = currentWindSpeed;
     
 }
 

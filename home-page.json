@@ -1,0 +1,79 @@
+{
+    "companies": [
+        {
+        "name": "Epam",
+        "address": "14 Uhorska Street, Building 1, 79000 Lviv, Ukraine",
+        "phonenumber": "+38-044-390-5457",
+        "websiteUrl": "https://www.epam.com/",
+        "membershipLevel": "Gold",
+        "logo": "https://itcluster.lviv.ua/wp-content/uploads/2015/09/EPAM-NEW-logo.png"
+        },
+        {
+        "name": "Eleks",
+        "address": "7 Naukova St., Building G 79060 Lviv, Ukraine",
+        "phonenumber": "+380-32-247-0357",
+        "websiteUrl": "https://eleks.com/",
+        "membershipLevel": "Siver",
+        "logo": "https://itcluster.lviv.ua/wp-content/uploads/2015/07/Eleks-Logo-Pantone3_886x264.png"
+        },
+        {
+        "name": "N-iX",
+        "address": "Storozhenka St, 32,79000 Lviv, Ukraine",
+        "phonenumber": "+380 322 295 767",
+        "websiteUrl": "https://www.n-ix.com/",
+        "membershipLevel": "Gold",
+        "logo": "https://itcluster.lviv.ua/wp-content/uploads/2015/08/N-IX-logo.jpg"
+        },
+        {
+        "name": "UCU Business School",
+        "address": "Kozelnytska 2a str., office 312, 79000 Lviv, Ukraine",
+        "phonenumber": "+380(67)675-66-08",
+        "websiteUrl": "https://lvbs.com.ua/en/",
+        "membershipLevel": "Silver",
+        "logo": "https://itcluster.lviv.ua/wp-content/uploads/2020/01/lvbs_logo_basic.svg",
+        "homePage": "Silver" 
+        },
+        {
+        "name": "IT Prosteer",
+        "address": "Horodnytska St, 47 Б, 79000 Lviv, Ukraine",
+        "phonenumber": "+380(63)-243-65-65",
+        "websiteUrl": "https://itprosteer.com/",
+        "membershipLevel": "Gold",
+        "logo": "https://itcluster.lviv.ua/wp-content/uploads/2018/03/it_prosteer-1.png"
+        },
+        {
+        "name": "IT Step University",
+        "address": "Zamarstynivska St, 89, 79000 Lviv, Ukraine",
+        "phonenumber": "+380(63)586-69-65",
+        "websiteUrl": "https://itstep.edu.ua/",
+        "membershipLevel": "Bronze",
+        "logo": "https://itcluster.lviv.ua/wp-content/uploads/2017/04/Univers_logo_2.png",
+        "homePage": "Bronze" 
+        },
+        {
+        "name": "Inventify",
+        "address": "Vashynhtona St, 105, 79000 Lviv, Ukraine",
+        "phonenumber": "+380(63)956-69-65",
+        "websiteUrl": "https://inventify.com/",
+        "membershipLevel": "Gold",
+        "logo": "https://itcluster.lviv.ua/wp-content/uploads/2021/12/Inventify_Logo_RGB_dark_purple.png"
+        },
+        {
+        "name": "Lemberg Solutions",
+        "address": "Fedkovycha St, 60а, 79000 Lviv, Ukraine",
+        "phonenumber": "+380(93)956-86-65",
+        "websiteUrl": "https://lembergsolutions.com/",
+        "membershipLevel": "Gold",
+        "logo": "https://itcluster.lviv.ua/wp-content/uploads/2021/10/ls_logo_big_horizontal-01.png",
+        "homePage": "Gold" 
+        },
+        {
+        "name": "Soft Blues",
+        "address": "33 Kamyanetska Street, 79034 Lviv, Ukraine",
+        "phonenumber": "+380(93)956-90-65",
+        "websiteUrl": "https://softblues.io/",
+        "membershipLevel": "Bronze",
+        "logo": "https://itcluster.lviv.ua/wp-content/uploads/2021/10/softblues-slogan_1-02.png"
+        }
+
+    ]}

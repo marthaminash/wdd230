@@ -246,6 +246,12 @@ footer {
     
   }
 
+  .spotlight-1,
+  .spotlight-2,
+  .spotlight-3{
+    height: 250px;
+  }
+
   .spotlight-1, 
   .spotlight-2{
     width: 50%;
